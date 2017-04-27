@@ -9,13 +9,13 @@ It contain WordPress Codeception demo. This repo consist of two Test Demo Implem
 Composer needs to be installed.
 
 ### Install selenium server and browser dependencies
-**Mac User** -  If you are Mac user. you can use `brew install` for selenium server
-**Non Mac** - For non Mac User you can follow this doc, Sorry :expressionless:
+* **Mac User** -  If you are Mac user. you can use `brew install` for selenium server
+* **Non Mac** - For non Mac User you can follow this doc, Sorry :expressionless:
 http://www.seleniumhq.org/download/
 
 **For Browser dependencies you will have to install respective driver**
-`chromedriver` - https://github.com/mozilla/geckodriver/
-`firefox driver`-   https://sites.google.com/a/chromium.org/chromedriver/
+* `chromedriver` - https://github.com/mozilla/geckodriver/
+* `firefox driver`-   https://sites.google.com/a/chromium.org/chromedriver/
 
 ### Update Composer
 Clone this repository in root of WordPress.
@@ -23,8 +23,8 @@ and run `composer update`
 
 ### Start selenium server 
 Start selenium server 
-**Mac User**  ->  `selenium-standalone start -- -port 4444`
-**NON Mac** -> google.com  :expressionless:
+* **Mac User**  ->  `selenium-standalone start -- -port 4444`
+* **NON Mac** -> google.com  :expressionless:
 
 ### Update acceptance.suite.yml files 
 ```
@@ -46,12 +46,12 @@ modules:
            adminUrl: /wp-adminc
 ```
  Change 
- `url` ->  URL of your Wordpress site.
- `browser` -> change the browser in which you going to perform acceptance testing.
- `port` -> Port on which selenium server is running.
- `host` -> Your host Name.
- `adminUsername` -> WordPress site admin Username.
- `adminPassword` -> WordPres site admin Password.
+ * `url` ->  URL of your Wordpress site.
+ * `browser` -> change the browser in which you going to perform acceptance testing.
+ * `port` -> Port on which selenium server is running.
+ * `host` -> Your host Name.
+ * `adminUsername` -> WordPress site admin Username.
+ * `adminPassword` -> WordPres site admin Password.
  
  ### Build Acceptance Test
  Build Test by running command `vendor/bin/codecept build`

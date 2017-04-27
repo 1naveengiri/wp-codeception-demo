@@ -1,5 +1,5 @@
 # Functional Testing with Codeception in WordPress
-It contain WordPress Codeception demo. This repo consist of two Test Demo Implemented With codeception in WordPress.
+This repo consist of two Test Demo Implemented With codeception in WordPress.
  * **Automated WordPress login**
  * **Make Woocommerce order**
   

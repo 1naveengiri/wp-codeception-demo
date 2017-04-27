@@ -23,7 +23,7 @@ and run `composer update`
 
 ### Start selenium server 
 Start selenium server 
-* **Mac User**  ->  `selenium-standalone start -- -port 4444`
+* **Mac User**  ->  `selenium-standalone start --port 4444`
 * **NON Mac** -> google.com  :expressionless:
 
 ### Update acceptance.suite.yml files 

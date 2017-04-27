@@ -18,7 +18,7 @@ http://www.seleniumhq.org/download/
 * `firefox driver`-   https://sites.google.com/a/chromium.org/chromedriver/
 
 ### Update Composer
-Clone this repository in root of WordPress.
+Clone this repository in root of WordPress
 and run `composer update`
 
 ### Start selenium server 
@@ -69,6 +69,6 @@ modules:
 Run Test by running command `vendor/bin/codecept run acceptance`
 
 
-If all ok and selenium server is running you will see the automated Test result on your specified browser.
+If all ok and selenium server is running, you will see the automated Test result on your specified browser.
 
 
